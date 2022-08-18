@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">Self<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#hire">HireMe</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hy! I am</h1>
+          <span class="auto">Kamran haider</span>
+          <p>
+            I am passionate about my work. Because I love what I do, I have a
+            steady source of motivation that drives me to do my best. In my last
+            job, this passion led me to challenge myself daily and learn new
+            skills that helped me to do better work.
+          </p>
+          <a href="#hire">
+            <input type="button" value="Hire Me" />
+          </a>
+        </div>
+        <div class="main-two">
+          <img src="1.jpg" alt="" />
+          <h1>kamran haider</h1>
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          These are the project that i just did and now i am working on my
+          different different of projects try to utilize my knowledege and
+          skills to improve my knowledge
+        </p>
+        <button class="button">Download CV</button>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Password generator</h3>
+          <p>
+            Password Generator web application, where users can generate and
+            build a strong password.
+          </p>
+          <button
+            onclick="location.href='https://kamran-netflix-clone.netlify.app'"
+            type="button"
+          >
+            Live Preview
+          </button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>drag-and-drop</h3>
+          <p>identical tiles to verify that you are not a robot</p>
+          <button
+            onclick="location.href='https://provethatyou.netlify.app/'"
+            type="button"
+          >
+            Live Preview
+          </button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>Netflix Landing Page.</h3>
+          <p>
+            Made application responsive and tried to cover every detail of
+            original.
+          </p>
+          <button
+            onclick="location.href='https://kamran-netflix-clone.netlify.app'"
+            type="button"
+          >
+            Live Preview
+          </button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Kamran Haider</span>
+          <p>
+            My work speaks for the goals of my clients; it’s crafted carefully,
+            studied through the gamut of human psychology, and created to stand
+            the test of time. My role is to listen and trust, research and
+            explore, create and design, present and deliver, and to cater to
+            your needs.
+          </p>
+          <div class="btns">
+            <button
+              onclick="location.href='https://drive.google.com/drive/u/0/folders/1I7fHlpu_Pait1lEbPXUHlEx9O0IyFiVe'"
+              type="button"
+            >
+              Download CV
+            </button>
+            <button>Contact Me</button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="about flexx" id="hire">
+        <div class="about-onee">
+          <h1>Hire Me</h1>
+
+          <p>
+            Over the years, I have acquired relevant skills and experience,
+            which I shall bring to your organization. I have also worked
+            tirelessly on my communication abilities and teamwork skills, which
+            I will put to use in my future career, which would be in your
+            organization if I am selected for the position. I have given my 100%
+            effort in my past companies, and this has enabled me to recognize my
+            capabilities and limitations. If I channelize them further, they
+            will bring fruitful results to me and also to your esteemed
+            organization.
+          </p>
+        </div>
+      </section>
+
+      <section class="about flexx" id="portfolio">
+        <div class="about-oneee">
+          <h1>Portfolio</h1>
+
+          <p>
+            Hello and welcome to my Portfolio My name is Kamran haider and I
+            am<br />
+            making this portfolio not only to display the works that I have
+            learn,but<br />
+            also to show how my coding has improved throughout this time. At
+            the<br />
+            beginning of the time I was not the most confident in my skils, I
+            made it<br />
+            a goal to become a better programmer I am making this portfolio
+            in<br />
+            order to show that I have finally reached my goals, and have grown
+            in to<br />
+            a much more confident developer. than I was before<br />
+          </p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">My Contact Details--></div>
+        <div class="social">
+          <!-- Instagram -->
+          <a
+            id="instagram"
+            class="btn btn-primary"
+            style="background-color: white"
+            href="https://www.instagram.com/kamranhaider_official/!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <a
+          id="facebook"
+            class="btn btn-primary"
+            style="background-color: white"
+            href="https://www.facebook.com/Kamranbpg"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Whatsapp -->
+          <a
+          id="watsapp"
+            class="btn btn-primary"
+            style="background-color: white"
+            href="https://wa.me/+918603675807"
+            role="button"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+          id="linked"
+            class="btn btn-primary"
+            style="background-color: white"
+            href="https://www.linkedin.com/in/kamran-haider-bb4988130/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+          id="github"
+            class="btn btn-primary"
+            style="background-color: white"
+            href="https://github.com/kamran8603"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+          id="google"
+            class="btn btn-primary"
+            style="background-color: white"
+            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Kamran haider", "Web Developer", "Full-Stack-Dev"],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
