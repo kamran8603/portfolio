@@ -432,11 +432,13 @@ nav ul li a:hover{
     margin-left: 30px;
 }
 .send{
-    background: linear-gradient(#FFDE59 , #ddb100);
-    font-size: 19px !important;
+    background: linear-gradient(#FFDE59 , #dac571);
+    font-size: 19px ;
     font-weight: 600;
     cursor: pointer;
-    margin: 30px auto !important;
+    margin: 30px auto ;
+    padding: 8px 50px;
+    border-radius: 6px;
 }
 
 footer{
